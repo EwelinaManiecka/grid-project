@@ -139,13 +139,16 @@ h1.company-name {
 .header .nav-mobile--active {
   transform: translateX(0);
 }
+.header .nav-desktop {
+  display: none;
+}
 .header .nav__link {
   position: relative;
   display: inline-block;
   margin: 0.5em;
   padding: 0.5em;
   font-size: 2.3rem;
-  color: #fff;
+  color: #232323;
   text-transform: uppercase;
   text-decoration: none;
   transition: color 0.3s;
@@ -213,6 +216,9 @@ h1.company-name {
     grid-column: 1/2;
     grid-row: 1/2;
     padding: 1em;
+  }
+  .nav-mobile {
+    display: none;
   }
   .nav-desktop {
     display: block;

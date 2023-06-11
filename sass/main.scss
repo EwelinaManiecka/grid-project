@@ -132,9 +132,9 @@ h1.company-name {
         transform: translateX(0);
       }
     }
-    // &-desktop {
-    //   display: none;
-    // }
+    &-desktop {
+      display: none;
+    }
 
     &__link {
       position: relative;
@@ -142,7 +142,7 @@ h1.company-name {
       margin: 0.5em;
       padding: 0.5em;
       font-size: 2.3rem;
-      color: $white;
+      color: $dark;
       text-transform: uppercase;
       text-decoration: none;
       transition: color 0.3s;
