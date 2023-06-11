@@ -1,4 +1,11 @@
+@import "./colors";
+@import "./animations";
+
 body {
   font-family: "Cinzel", serif;
   font-family: "Raleway", sans-serif;
 }
+
+@import "./small";
+@import "./medium";
+@import "./large";
