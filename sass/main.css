@@ -345,6 +345,20 @@ h1.company-name {
   background-color: #d7c786;
 }
 
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.gallery__img {
+  height: 300px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.gallery__img:nth-child(odd) {
+  display: none;
+}
+
 @media (min-width: 576px) {
   .info {
     grid-template-areas: "title box" "title box" "title box";
