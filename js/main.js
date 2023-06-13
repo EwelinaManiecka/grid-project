@@ -16,6 +16,7 @@ const handleNav = () => {
 };
 
 navBtn.addEventListener("click", handleNav);
+// navMobile.addEventListener("click", )
 
 const handleCurrentYear = () => {
   const year = new Date().getFullYear();
